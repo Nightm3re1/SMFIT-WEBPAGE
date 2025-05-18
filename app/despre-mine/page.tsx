@@ -137,9 +137,9 @@ export default function DespreMine() {
                     </p>
                     <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>29SABINAM</strong></p>
                     <div className="mt-auto text-center">
-                      <Button variant="default" size="sm" className="rounded-full font-medium" aria-label="Vezi oferta 18GYM">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Vezi oferta 18GYM">
                         Vezi oferta 18GYM
-                      </Button>
+                      </button>
                     </div>
                   </div>
                 </Link>
@@ -157,9 +157,9 @@ export default function DespreMine() {
                     </p>
                     <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>SABINAM10</strong></p>
                     <div className="mt-auto text-center">
-                      <Button variant="default" size="sm" className="rounded-full font-medium" aria-label="Descoperă Scitec">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Descoperă Scitec">
                         Descoperă Scitec
-                      </Button>
+                      </button>
                     </div>
                   </div>
                 </Link>
@@ -181,9 +181,9 @@ export default function DespreMine() {
                       <p className="text-sm font-medium text-primary-600"><strong>SABINA</strong></p>
                     </div>
                     <div className="mt-auto text-center">
-                      <Button variant="default" size="sm" className="rounded-full font-medium" aria-label="Vizitează GymHyper">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Vizitează GymHyper">
                         Vizitează GymHyper
-                      </Button>
+                      </button>
                     </div>
                   </div>
                 </Link>
