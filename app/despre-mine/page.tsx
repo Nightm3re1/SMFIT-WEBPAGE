@@ -176,9 +176,10 @@ export default function DespreMine() {
                       GymHyper propune îmbrăcăminte și accesorii tehnice inovatoare, concepute pentru confort și susținerea oricărui tip de antrenament.
                     </p>
                     <div className="flex-grow"></div>
-                    <p className="text-sm font-medium text-primary-600 mb-2 text-center">
-                      Cod promoțional: <strong>SABINA</strong>
-                    </p>
+                    <div className="text-center mb-2">
+                      <p className="text-sm font-medium text-primary-600">Cod promoțional:</p>
+                      <p className="text-sm font-medium text-primary-600"><strong>SABINA</strong></p>
+                    </div>
                     <div className="mt-auto text-center">
                       <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Vizitează GymHyper">
                         Vizitează GymHyper
