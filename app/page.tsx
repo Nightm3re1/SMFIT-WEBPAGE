@@ -1,19 +1,7 @@
-import HeroSection from '@/components/home/HeroSection';
-import ServicesOverview from '@/components/home/ServicesOverview';
-import AboutPreview from '@/components/home/AboutPreview';
-import TestimonialsSlider from '@/components/home/TestimonialsSlider';
-import FaqSection from '@/components/home/FaqSection';
-import CtaSection from '@/components/home/CtaSection';
+export const dynamic = 'force-static';
 
-export default function Home() {
-  return (
-    <>
-      <HeroSection />
-      <ServicesOverview />
-      <AboutPreview />
-      <TestimonialsSlider />
-      <FaqSection />
-      <CtaSection />
-    </>
-  );
+import { redirect } from 'next/navigation';
+
+export default function HomeRedirect() {
+  redirect('/ro');
 }
