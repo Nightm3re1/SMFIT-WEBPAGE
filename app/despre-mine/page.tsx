@@ -120,6 +120,72 @@ export default function DespreMine() {
               </div>
             </div>
 
+            {/* Partners Section */}
+            <section id="partners" className="py-12 px-6 lg:px-12 mb-12">
+              <h2 className="text-3xl font-bold mb-6 text-center">Partenerii Mei</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <Link 
+                  href="https://18gym.ro" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block h-full"
+                >
+                  <div className="bg-primary-100 hover:bg-primary-200 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                    <h4 className="text-lg font-semibold mb-2 text-center">18GYM</h4>
+                    <p className="text-sm text-muted-foreground mb-4 text-center">
+                      18GYM este rețeaua premium de săli de fitness unde Sabina oferă sesiuni personalizate, asigurând rezultate rapide și o experiență de antrenament de top.
+                    </p>
+                    <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>29SABINAM</strong></p>
+                    <div className="mt-auto text-center">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Vezi oferta 18GYM">
+                        Vezi oferta 18GYM
+                      </button>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link 
+                  href="https://www.scitecnutrition.ro" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block h-full"
+                >
+                  <div className="bg-primary-100 hover:bg-primary-200 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                    <h4 className="text-lg font-semibold mb-2 text-center">Scitec Nutrition</h4>
+                    <p className="text-sm text-muted-foreground mb-4 text-center">
+                      Scitec Nutrition furnizează suplimente și echipament sportiv de calitate superioară, optimizate pentru performanță și recuperare eficientă.
+                    </p>
+                    <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>SABINAM10</strong></p>
+                    <div className="mt-auto text-center">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Descoperă Scitec">
+                        Descoperă Scitec
+                      </button>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link 
+                  href="https://gymhyper.ro" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block h-full"
+                >
+                  <div className="bg-primary-100 hover:bg-primary-200 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                    <h4 className="text-lg font-semibold mb-2 text-center">GymHyper</h4>
+                    <p className="text-sm text-muted-foreground mb-4 text-center">
+                      GymHyper propune îmbrăcăminte și accesorii tehnice inovatoare, concepute pentru confort și susținerea oricărui tip de antrenament.
+                    </p>
+                    <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>SABINA</strong></p>
+                    <div className="mt-auto text-center">
+                      <button className="inline-block bg-primary-500 text-white rounded-full py-2 px-4 hover:bg-primary-600 transition" aria-label="Vizitează GymHyper">
+                        Vizitează GymHyper
+                      </button>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </section>
+
             <div className="text-center">
               <Button asChild size="lg" className="bg-primary-500 hover:bg-primary-600 text-white">
                 <Link href="/contact" className="flex items-center">
