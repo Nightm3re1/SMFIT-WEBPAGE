@@ -133,7 +133,7 @@ export default function DespreMine() {
                   <div className="bg-primary-100 hover:bg-primary-200 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
                     <h4 className="text-lg font-semibold mb-2 text-center">18GYM</h4>
                     <p className="text-sm text-muted-foreground mb-4 text-center">
-                      18GYM este rețeaua premium de săli de fitness unde Sabina oferă sesiuni personalizate, asigurând rezultate rapide și o experiență de antrenament de top.
+                      18GYM este lanțul premium de săli de fitness unde Sabina oferă sesiuni personalizate, asigurând rezultate rapide și o experiență de antrenament de top.
                     </p>
                     <p className="text-sm font-medium text-primary-600 mb-2 text-center">Cod promoțional: <strong>29SABINAM</strong></p>
                     <div className="mt-auto text-center">
@@ -145,7 +145,7 @@ export default function DespreMine() {
                 </Link>
 
                 <Link 
-                  href="https://www.scitecnutrition.ro" 
+                  href="https://scitec.ro/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block h-full"
