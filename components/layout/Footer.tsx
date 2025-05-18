@@ -89,21 +89,10 @@ const Footer = () => {
 
         <Separator className="my-8" />
 
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex justify-center">
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} SMfit. Toate drepturile rezervate.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/termeni-si-conditii" className="text-xs text-muted-foreground hover:text-primary-600 transition">
-              Termeni și condiții
-            </Link>
-            <Link href="/politica-de-confidentialitate" className="text-xs text-muted-foreground hover:text-primary-600 transition">
-              Politica de confidențialitate
-            </Link>
-            <Link href="/cookies" className="text-xs text-muted-foreground hover:text-primary-600 transition">
-              Cookies
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
