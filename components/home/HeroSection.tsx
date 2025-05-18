@@ -5,8 +5,11 @@ import { Button } from '@/components/ui/button';
 import { fadeIn, staggerContainer } from '@/lib/animations';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const HeroSection = () => {
+  const t = useTranslations();
+
   return (
     <motion.section
       variants={staggerContainer}
@@ -23,23 +26,22 @@ const HeroSection = () => {
             className="space-y-6"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-              Transformă-ți corpul cu <span className="text-primary-600">SMfit</span>
+              {t('hero.title')}
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Antrenamente personalizate și planuri nutriționale create special pentru tine.
-              Atinge-ți obiectivele fitness cu ghidare profesională.
+              {t('hero.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button asChild size="lg" className="bg-primary-500 hover:bg-primary-600 text-white">
                 <Link href="/servicii">
-                  Descoperă serviciile
+                  {t('hero.discoverServices')}
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline">
                 <Link href="/contact">
-                  Începe antrenamentul acum
+                  {t('hero.startNow')}
                 </Link>
               </Button>
             </div>
@@ -47,15 +49,15 @@ const HeroSection = () => {
             <div className="flex gap-8 pt-4">
               <div className="flex flex-col">
                 <span className="text-3xl font-bold">100+</span>
-                <span className="text-sm text-muted-foreground">Clienți mulțumiți</span>
+                <span className="text-sm text-muted-foreground">{t('hero.happyClients')}</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-3xl font-bold">2+</span>
-                <span className="text-sm text-muted-foreground">Ani de experiență</span>
+                <span className="text-sm text-muted-foreground">{t('hero.yearsExperience')}</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-3xl font-bold">100%</span>
-                <span className="text-sm text-muted-foreground">Satisfacție garantată</span>
+                <span className="text-sm text-muted-foreground">{t('hero.satisfaction')}</span>
               </div>
             </div>
           </motion.div>

@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "SMfit - Personalized Training & Nutrition",
+    "description": "Transform your body with SMfit: personalized online or live training sessions and nutrition plans tailored to your needs.",
+    "titleTemplate": "%s | SMfit"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Me",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "contactButton": "Contact Me",
+    "switchLanguage": "Comută în Română"
+  },
+  "hero": {
+    "title": "Transform your body with SMfit",
+    "subtitle": "Personalized training and nutrition plans created specifically for you. Achieve your fitness goals with professional guidance.",
+    "discoverServices": "Discover Services",
+    "startNow": "Start Training Now",
+    "happyClients": "Happy Clients",
+    "yearsExperience": "Years of Experience",
+    "satisfaction": "Satisfaction Guaranteed"
+  },
+  "services": {
+    "title": "Personalized Services",
+    "subtitle": "Choose the service that best fits your fitness needs and goals.",
+    "cta": "Learn More",
+    "sectionTitle": "Personalized Services",
+    "sectionSubtitle": "SMfit programs are specially created to adapt to your needs, goals, and lifestyle. Explore our services and choose the perfect solution for you.",
+    "personalTraining": {
+      "title": "Personal Training",
+      "description": "Personalized workouts for your goals, with constant monitoring and adjustments for maximum results.",
+      "price": "From 350 RON / month",
+      "features": [
+        "Complete physical assessment",
+        "Personalized training plan",
+        "Progress monitoring",
+        "Basic nutritional support",
+        "Regular plan adjustments"
+      ]
+    },
+    "personalizedNutrition": {
+      "title": "Personalized Nutrition",
+      "description": "Nutritional plan adapted to your metabolic needs and food preferences, for sustainable results.",
+      "price": "From 70 RON / plan",
+      "features": [
+        "Detailed caloric needs analysis",
+        "Personalized meal plan",
+        "Recipes and alternatives",
+        "Weekly adjustments",
+        "Continuous WhatsApp support"
+      ]
+    },
+    "onlineTraining": {
+      "title": "Online Training",
+      "description": "Efficient remote workouts, with all the benefits of a personal trainer, but with more flexibility.",
+      "price": "From 200 RON / month",
+      "features": [
+        "Personalized weekly program",
+        "Demonstration videos",
+        "Feedback through video recordings",
+        "Nutritional consulting",
+        "Real-time adjustments"
+      ]
+    },
+    "transformationProgram": {
+      "title": "Transformation Program",
+      "description": "Complete 12-week program for a total transformation of your body and eating habits.",
+      "price": "From 500 RON",
+      "features": [
+        "12 weeks of progressive workouts",
+        "Flexible meal plan",
+        "Video and PDF guides",
+        "Access to private community",
+        "Weekly check-in & personalized feedback"
+      ]
+    },
+    "firstStepButton": "Take the first step toward transformation",
+    "ctaTitle": "Not sure what's right for you?",
+    "ctaText": "Schedule a free consultation to discuss your goals and find out which of our services is best suited to your needs."
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My passion is to help people reach their maximum potential through fitness and personalized nutrition.",
+    "whoAmI": "Who I Am",
+    "intro": "Hello! I'm Sabina Meruță, the founder of SMfit and an internationally certified personal trainer, with over 2 years of experience in fitness and nutrition.",
+    "paragraph1": "My passion for movement and art took shape during adolescence, when I obtained my Professional Choreographer and Dancer diploma, and later discovered the transformative effects of gym workouts. I was amazed at how regular exercise, combined with proper nutrition, can revitalize the body and significantly increase energy levels.",
+    "paragraph2": "Currently, I am a student at the Faculty of Pharmacy - Nutrition and Dietetics specialization, at the University of Medicine, Pharmacy, Sciences and Technology \"George Emil Palade\" in Târgu Mureș, and I hold numerous internationally accredited courses in fitness and healthy eating.",
+    "paragraph3": "With each personalized program, I combine practical experience, nutrition science, and choreographic creativity to help you achieve your goals!",
+    "philosophy": {
+      "title": "My Philosophy",
+      "intro": "My philosophy is based on a few fundamental principles:",
+      "personalization": {
+        "title": "Personalization",
+        "text": "Each person is unique, with different needs, limitations, and goals. That's why all my programs are 100% personalized for each client."
+      },
+      "scientific": {
+        "title": "Scientific Approach",
+        "text": "I rely on current scientific research and proven methods, not on passing trends or \"miracle solutions\". Efficiency and safety are priorities."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "text": "I believe in sustainable changes, not temporary solutions. My goal is to help you develop healthy long-term habits, not just achieve quick results that don't last."
+      },
+      "education": {
+        "title": "Education",
+        "text": "Beyond workouts and nutrition plans, I aim to educate you about your body and help you understand why we do certain exercises or make certain food choices."
+      }
+    },
+    "photosTitle": "Moments from My Activity",
+    "certifications": {
+      "title": "Certifications and Education",
+      "education": {
+        "title": "Formal Education",
+        "items": [
+          "Graduate of \"Unirea\" National College",
+          "Student at UMFST, Nutrition and Dietetics"
+        ]
+      },
+      "certs": {
+        "title": "International Certifications",
+        "items": [
+          "Professional Choreographer and Dancer",
+          "Certified Fitness Instructor Level 2 and 4, Group Trainer"
+        ]
+      }
+    },
+    "partners": {
+      "title": "My Partners",
+      "gym18": {
+        "title": "18GYM",
+        "description": "18GYM is the premium chain of fitness gyms where Sabina offers personalized sessions, ensuring quick results and a top training experience.",
+        "promoTitle": "Promo code:",
+        "promoCode": "29SABINAM",
+        "buttonText": "See 18GYM offer"
+      },
+      "scitec": {
+        "title": "Scitec Nutrition",
+        "description": "Scitec Nutrition provides premium quality supplements and sports equipment, optimized for performance and efficient recovery.",
+        "promoTitle": "Promo code:",
+        "promoCode": "SABINAM10",
+        "buttonText": "Discover Scitec"
+      },
+      "gymhyper": {
+        "title": "GymHyper",
+        "description": "GymHyper offers innovative technical clothing and accessories, designed for comfort and support for any type of workout.",
+        "promoTitle": "Promo code:",
+        "promoCode": "SABINA",
+        "buttonText": "Visit GymHyper"
+      }
+    },
+    "ctaButton": "Take the first step toward transformation",
+    "preview": {
+      "title": "About Sabina Meruță",
+      "paragraph1": "Hello! I'm Sabina Meruță, an internationally certified personal trainer (Level 4 and Level 2) with over 2 years of experience in transforming my clients' bodies and lives.",
+      "paragraph2": "I believe that each person deserves a unique, personalized approach built on solid training and nutrition principles, continuously adapted to achieve the best results. My goal is to support you on your journey towards a healthier, stronger, and more confident version of yourself.",
+      "certifications": "International Certifications",
+      "experience": "Years of Experience",
+      "clients": "Transformed Clients",
+      "sessions": "Completed Workouts",
+      "button": "Learn more about me"
+    }
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "Read the real experiences of clients who have transformed their body and life with the help of SMfit programs.",
+    "successTitle": "Success Stories",
+    "successSubtitle": "Real transformations of clients who have followed SMfit programs and changed their lives.",
+    "transformation1": {
+      "name": "Mădălina I.",
+      "program": "Personal Training and Personalized Nutrition - 1 month",
+      "weightLoss": "Weight lost:",
+      "weightLossValue": "3 kg",
+      "chestReduction": "Chest reduced:",
+      "chestReductionValue": "3 cm",
+      "waistReduction": "Waist reduced:",
+      "waistReductionValue": "4 cm",
+      "hipReduction": "Hip reduced:",
+      "hipReductionValue": "5 cm",
+      "quote": "\"Discipline, seriousness, and confidence combined with gentleness and calmness - that's how I would describe Sabina's training sessions. Thank you from the bottom of my heart, Sabina! ❤️\""
+    },
+    "transformation2": {
+      "name": "Carina C.",
+      "program": "Online Training and Personalized Nutrition - 8 weeks",
+      "weightLoss": "Weight lost:",
+      "weightLossValue": "6 kg",
+      "chestReduction": "Chest reduced:",
+      "chestReductionValue": "7 cm",
+      "waistReduction": "Waist reduced:",
+      "waistReductionValue": "9 cm",
+      "hipReduction": "Hip reduced:",
+      "hipReductionValue": "12 cm",
+      "quote": "\"Choosing Sabina's services proved to be very useful: her psychological support and personalized training programs brought daily progress. The balanced meal plan makes the healthy lifestyle pleasant and sustainable.\""
+    },
+    "ctaTitle": "Want to be the next success story?",
+    "ctaText": "Schedule a free consultation to discuss your goals and find out how SMfit can help you achieve them.",
+    "ctaButton": "Book your first free session",
+    "homeSection": {
+      "title": "What Our Clients Say",
+      "subtitle": "The results and real experiences of people who have transformed their lives with SMfit."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Have questions or ready to start? Fill out the form below or use the contact information to reach me directly.",
+    "formTitle": "Let's get in touch!",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "First and last name",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "07XX XXX XXX",
+      "service": "Service of interest",
+      "servicePlaceholder": "Select a service (optional)",
+      "message": "Message",
+      "messagePlaceholder": "Details about your fitness goals, questions, or preferences",
+      "sending": "Sending...",
+      "send": "Send message",
+      "success": "Message sent successfully!",
+      "successTitle": "Message sent successfully!",
+      "successDescription": "We will contact you as soon as possible.",
+      "error": "Error",
+      "errorDescription": "An error occurred. Please try again."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Working Hours & Services",
+      "mondayFriday": "Monday–Friday: 08:00–20:00",
+      "saturday": "Saturday: 10:00–18:00",
+      "sunday": "Sunday: 12:00–18:00",
+      "support": "24/7 support through Mira, SMfit chat agent"
+    },
+    "validation": {
+      "nameRequired": "Name must have at least 2 characters",
+      "emailRequired": "Email address is not valid",
+      "phoneRequired": "Phone number must start with 07 and have 10 digits",
+      "messageRequired": "Message must have at least 10 characters"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions about our workouts and programs.",
+    "items": [
+      {
+        "question": "How often should I work out to see results?",
+        "answer": "For most people, 3-4 workouts per week are enough to see progress. Consistency is more important than frequency. We will adapt the frequency according to your goals and schedule."
+      },
+      {
+        "question": "How do online workouts work?",
+        "answer": "You will receive a personalized monthly program on WhatsApp, with demonstration videos for each exercise. You can send recordings of your executions for feedback and adjustments."
+      },
+      {
+        "question": "Do I need to use supplements to get results?",
+        "answer": "It's not mandatory, most results come from consistent training and proper nutrition. However, certain supplements can help depending on your goals. We'll discuss options if you're interested, but they're not essential."
+      },
+      {
+        "question": "How long until I see results?",
+        "answer": "Most clients notice changes in the first 2-4 weeks, especially in energy and strength levels. Visible body transformations usually appear after 6-8 weeks of consistency in training and nutrition."
+      },
+      {
+        "question": "Does the nutrition plan include recipes?",
+        "answer": "Yes, the nutrition plan includes meal examples, simple recipes, and lists of alternatives for ingredients, so you can adapt the plan to your culinary preferences and the time available for meal preparation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your body?",
+    "subtitle": "Schedule a free consultation now and start the journey to the best version of yourself!",
+    "primaryButton": "Book your first free session",
+    "secondaryButton": "Explore services"
+  },
+  "footer": {
+    "description": "Transform your body and habits with personalized training and nutrition plans adapted to your specific needs.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "© 2025 SMfit. All rights reserved."
+  }
+}

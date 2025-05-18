@@ -1,23 +1,23 @@
 export const NAV_LINKS = [
   {
     path: '/',
-    title: 'Acasă',
+    translationKey: 'home',
   },
   {
     path: '/servicii',
-    title: 'Servicii',
+    translationKey: 'services',
   },
   {
     path: '/despre-mine',
-    title: 'Despre Mine',
+    translationKey: 'about',
   },
   {
     path: '/testimoniale',
-    title: 'Testimoniale',
+    translationKey: 'testimonials',
   },
   {
     path: '/contact',
-    title: 'Contact',
+    translationKey: 'contact',
   },
 ];
 

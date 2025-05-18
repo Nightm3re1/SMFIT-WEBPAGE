@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "SMfit - Antrenamente Personalizate & Nutriție",
+    "description": "Transformă-ți corpul cu SMfit: antrenamente personalizate online sau live și planuri nutriționale adaptate nevoilor tale.",
+    "titleTemplate": "%s | SMfit"
+  },
+  "navigation": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "about": "Despre Mine",
+    "testimonials": "Testimoniale",
+    "contact": "Contact",
+    "contactButton": "Contactează-mă",
+    "switchLanguage": "Switch to English"
+  },
+  "hero": {
+    "title": "Transformă-ți corpul cu SMfit",
+    "subtitle": "Antrenamente personalizate și planuri nutriționale create special pentru tine. Atinge-ți obiectivele fitness cu ghidare profesională.",
+    "discoverServices": "Descoperă serviciile",
+    "startNow": "Începe antrenamentul acum",
+    "happyClients": "Clienți mulțumiți",
+    "yearsExperience": "Ani de experiență",
+    "satisfaction": "Satisfacție garantată"
+  },
+  "services": {
+    "title": "Servicii Personalizate",
+    "subtitle": "Alege serviciul care se potrivește cel mai bine nevoilor și obiectivelor tale fitness.",
+    "cta": "Află mai multe",
+    "sectionTitle": "Servicii Personalizate",
+    "sectionSubtitle": "Programele SMfit sunt create special pentru a se adapta nevoilor, obiectivelor și stilului tău de viață. Explorează serviciile noastre și alege soluția perfectă pentru tine.",
+    "personalTraining": {
+      "title": "Antrenament Personal",
+      "description": "Antrenamente personalizate pentru obiectivele tale, cu monitorizare constantă și ajustări pentru rezultate maxime.",
+      "price": "De la 350 RON / lună",
+      "features": [
+        "Evaluare fizică completă",
+        "Plan personalizat de antrenament",
+        "Monitorizare progres",
+        "Suport nutrițional de bază",
+        "Ajustări regulate ale planului"
+      ]
+    },
+    "personalizedNutrition": {
+      "title": "Nutriție Personalizată",
+      "description": "Plan nutrițional adaptat nevoilor tale metabolice și preferințelor alimentare, pentru rezultate sustenabile.",
+      "price": "De la 70 RON / plan",
+      "features": [
+        "Analiză detaliată a necesarului caloric",
+        "Plan personalizat de mese",
+        "Rețete și alternative",
+        "Ajustări săptămânale",
+        "Suport continuu pe WhatsApp"
+      ]
+    },
+    "onlineTraining": {
+      "title": "Antrenament Online",
+      "description": "Antrenamente eficiente de la distanță, cu toate beneficiile unui antrenor personal, dar cu mai multă flexibilitate.",
+      "price": "De la 200 RON / lună",
+      "features": [
+        "Program săptămânal personalizat",
+        "Videoclipuri demonstrative",
+        "Feedback prin înregistrări video",
+        "Consultanță nutrițională",
+        "Ajustări în timp real"
+      ]
+    },
+    "transformationProgram": {
+      "title": "Program Transformare",
+      "description": "Program complet de 12 săptămâni pentru o transformare totală a corpului și a obiceiurilor alimentare.",
+      "price": "De la 500 RON",
+      "features": [
+        "12 săptămâni de antrenamente progresive",
+        "Plan alimentar flexibil",
+        "Ghiduri video și PDF",
+        "Acces la comunitate privată",
+        "Check-in săptămânal & feedback personalizat"
+      ]
+    },
+    "firstStepButton": "Fă primul pas spre transformare",
+    "ctaTitle": "Nu ești sigur ce ți se potrivește?",
+    "ctaText": "Programează o consultație gratuită pentru a discuta despre obiectivele tale și pentru a afla care dintre serviciile noastre este cel mai bine adaptat nevoilor tale."
+  },
+  "about": {
+    "title": "Despre Mine",
+    "subtitle": "Pasiunea mea este să ajut oamenii să își atingă potențialul maxim prin fitness și nutriție personalizată.",
+    "whoAmI": "Cine Sunt Eu",
+    "intro": "Salut! Sunt Sabina Meruță, fondatoarea SMfit și antrenoare personală certificată internațional, cu peste 2 ani de experiență în fitness și nutriție.",
+    "paragraph1": "Pasiunea mea pentru mișcare și artă s-a conturat încă din adolescență, când am obținut diploma de Coregraf și Dansator Profesionist, iar mai târziu am descoperit efectele transformatoare ale antrenamentelor în sala de sport. M-a uimit cum exercițiile regulate, combinate cu o alimentație corectă, pot revitaliza corpul și pot crește semnificativ nivelul de energie.",
+    "paragraph2": "În prezent, sunt studentă la Facultatea de Farmacie – specializarea Nutriție și Dietetică, din cadrul Universității de Medicină, Farmacie, Științe și Tehnologie „George Emil Palade" din Târgu Mureș, și dețin numeroase cursuri internaționale acreditate în fitness și alimentație sănătoasă.",
+    "paragraph3": "Cu fiecare program personalizat, combin experiența practică, știința nutriției și creativitatea coregrafică pentru a te ajuta să-ți atingi obiectivele!",
+    "philosophy": {
+      "title": "Filosofia Mea",
+      "intro": "Filosofia mea se bazează pe câteva principii fundamentale:",
+      "personalization": {
+        "title": "Personalizare",
+        "text": "Fiecare persoană este unică, cu nevoi, limitări și obiective diferite. De aceea, toate programele mele sunt personalizate 100% pentru fiecare client în parte."
+      },
+      "scientific": {
+        "title": "Abordare Științifică",
+        "text": "Mă bazez pe cercetări științifice actuale și metode dovedite, nu pe tendințe trecătoare sau \"soluții miraculoase\". Eficiența și siguranța sunt prioritare."
+      },
+      "sustainability": {
+        "title": "Sustenabilitate",
+        "text": "Cred în schimbări sustenabile, nu în soluții temporare. Scopul meu este să te ajut să dezvolți obiceiuri sănătoase pe termen lung, nu doar să obții rezultate rapide care nu durează."
+      },
+      "education": {
+        "title": "Educație",
+        "text": "Dincolo de antrenamente și planuri nutriționale, îmi propun să te educ despre corpul tău și să te ajut să înțelegi de ce facem anumite exerciții sau alegeri alimentare."
+      }
+    },
+    "photosTitle": "Momente din Activitatea Mea",
+    "certifications": {
+      "title": "Certificări și Educație",
+      "education": {
+        "title": "Educație Formală",
+        "items": [
+          "Absolventă a Colegiului Național \"Unirea\"",
+          "Studentă la UMFST, Nutriție și Dietetică"
+        ]
+      },
+      "certs": {
+        "title": "Certificări Internaționale",
+        "items": [
+          "Coregraf și Dansator Profesionist",
+          "Instructor de Fitness Certificat Level 2 și 4, Antrenor de grup"
+        ]
+      }
+    },
+    "partners": {
+      "title": "Partenerii Mei",
+      "gym18": {
+        "title": "18GYM",
+        "description": "18GYM este lanțul premium de săli de fitness unde Sabina oferă sesiuni personalizate, asigurând rezultate rapide și o experiență de antrenament de top.",
+        "promoTitle": "Cod promoțional:",
+        "promoCode": "29SABINAM",
+        "buttonText": "Vezi oferta 18GYM"
+      },
+      "scitec": {
+        "title": "Scitec Nutrition",
+        "description": "Scitec Nutrition furnizează suplimente și echipament sportiv de calitate superioară, optimizate pentru performanță și recuperare eficientă.",
+        "promoTitle": "Cod promoțional:",
+        "promoCode": "SABINAM10",
+        "buttonText": "Descoperă Scitec"
+      },
+      "gymhyper": {
+        "title": "GymHyper",
+        "description": "GymHyper propune îmbrăcăminte și accesorii tehnice inovatoare, concepute pentru confort și susținerea oricărui tip de antrenament.",
+        "promoTitle": "Cod promoțional:",
+        "promoCode": "SABINA",
+        "buttonText": "Vizitează GymHyper"
+      }
+    },
+    "ctaButton": "Fă primul pas spre transformare",
+    "preview": {
+      "title": "Despre Sabina Meruță",
+      "paragraph1": "Salut! Sunt Sabina Meruță, antrenor personal certificat internațional (Level 4 și Level 2) cu peste 2 ani de experiență în transformarea corpurilor și vieților clienților mei.",
+      "paragraph2": "Cred că fiecare persoană merită o abordare unică, personalizată și construită pe principii solide de antrenament și nutriție, adaptată continuu pentru a obține cele mai bune rezultate. Scopul meu este să te susțin în drumul tău către o versiune mai sănătoasă, mai puternică și mai încrezătoare a ta.",
+      "certifications": "Certificări Internaționale",
+      "experience": "Ani de Experiență",
+      "clients": "Clienți Transformați",
+      "sessions": "Antrenamente Efectuate",
+      "button": "Află mai multe despre mine"
+    }
+  },
+  "testimonials": {
+    "title": "Testimoniale Clienți",
+    "subtitle": "Citește experiențele reale ale clienților care și-au transformat corpul și viața cu ajutorul programelor SMfit.",
+    "successTitle": "Povești de Succes",
+    "successSubtitle": "Transformări reale ale clienților care au urmat programele SMfit și și-au schimbat viața.",
+    "transformation1": {
+      "name": "Mădălina I.",
+      "program": "Antrenamente Personale și Nutriție Personalizată - 1 lună",
+      "weightLoss": "Greutate pierdută:",
+      "weightLossValue": "3 kg",
+      "chestReduction": "Piept redus:",
+      "chestReductionValue": "3 cm",
+      "waistReduction": "Talie redusă:",
+      "waistReductionValue": "4 cm",
+      "hipReduction": "Șold redus:",
+      "hipReductionValue": "5 cm",
+      "quote": "\"Disciplină, seriozitate și încredere îmbinate cu blândețe și calm – așa aș descrie sesiunile de antrenament ale Sabinei. Îți mulțumesc din suflet, Sabina! ❤️\""
+    },
+    "transformation2": {
+      "name": "Carina C.",
+      "program": "Antrenamente Online și Nutriție Personalizată - 8 săptămâni",
+      "weightLoss": "Greutate pierdută:",
+      "weightLossValue": "6 kg",
+      "chestReduction": "Piept redus:",
+      "chestReductionValue": "7 cm",
+      "waistReduction": "Talie redusă:",
+      "waistReductionValue": "9 cm",
+      "hipReduction": "Șold redus:",
+      "hipReductionValue": "12 cm",
+      "quote": "\"Alegerea serviciilor Sabinei s-a dovedit a fi foarte utilă: susținerea ei psihică și programele de antrenament personalizate au adus progres zilnic. Planul alimentar echilibrat face stilul de viață sănătos plăcut și sustenabil.\""
+    },
+    "ctaTitle": "Vrei să fii următoarea poveste de succes?",
+    "ctaText": "Programează o consultație gratuită pentru a discuta despre obiectivele tale și pentru a afla cum te poate ajuta SMfit să le atingi.",
+    "ctaButton": "Rezervă-ți prima sesiune gratuită",
+    "homeSection": {
+      "title": "Ce Spun Clienții Noștri",
+      "subtitle": "Rezultatele și experiențele reale ale persoanelor care și-au transformat viața cu SMfit."
+    }
+  },
+  "contact": {
+    "title": "Contactează-mă",
+    "subtitle": "Ai întrebări sau ești gata să începi? Completează formularul de mai jos sau folosește informațiile de contact pentru a mă contacta direct.",
+    "formTitle": "Hai să luăm legătura!",
+    "form": {
+      "name": "Nume Complet",
+      "namePlaceholder": "Nume și prenume",
+      "email": "Email",
+      "emailPlaceholder": "email@exemplu.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "07XX XXX XXX",
+      "service": "Serviciu de interes",
+      "servicePlaceholder": "Selectează un serviciu (opțional)",
+      "message": "Mesaj",
+      "messagePlaceholder": "Detalii despre obiectivele tale fitness, întrebări sau preferințe",
+      "sending": "Se trimite...",
+      "send": "Trimite mesaj",
+      "success": "Mesajul a fost trimis cu succes!",
+      "successTitle": "Mesaj trimis cu succes!",
+      "successDescription": "Vă vom contacta în cel mai scurt timp posibil.",
+      "error": "Eroare",
+      "errorDescription": "A apărut o eroare. Vă rugăm să încercați din nou."
+    },
+    "contactInfo": {
+      "title": "Informații de contact",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresă",
+      "hours": "Program de lucru & Servicii",
+      "mondayFriday": "Luni–Vineri: 08:00–20:00",
+      "saturday": "Sâmbătă: 10:00–18:00",
+      "sunday": "Duminică: 12:00–18:00",
+      "support": "24/7 asistență prin Mira, chat agent SMfit"
+    },
+    "validation": {
+      "nameRequired": "Numele trebuie să aibă cel puțin 2 caractere",
+      "emailRequired": "Adresa de email nu este validă",
+      "phoneRequired": "Numărul de telefon trebuie să înceapă cu 07 și să aibă 10 cifre",
+      "messageRequired": "Mesajul trebuie să aibă cel puțin 10 caractere"
+    }
+  },
+  "faq": {
+    "title": "Întrebări Frecvente",
+    "subtitle": "Răspunsuri la cele mai comune întrebări despre antrenamentele și programele noastre.",
+    "items": [
+      {
+        "question": "Cât de des ar trebui să mă antrenez pentru a vedea rezultate?",
+        "answer": "Pentru majoritatea persoanelor, 3-4 antrenamente pe săptămână sunt suficiente pentru a vedea progres. Consistența este mai importantă decât frecvența. Vom adapta frecvența în funcție de obiectivele și programul tău."
+      },
+      {
+        "question": "Cum funcționează antrenamentele online?",
+        "answer": "Vei primi un program personalizat lunar pe WhatsApp, cu videoclipuri demonstrative pentru fiecare exercițiu. Poți trimite înregistrări cu execuțiile tale pentru feedback și ajustări."
+      },
+      {
+        "question": "Trebuie să folosesc suplimente pentru a obține rezultate?",
+        "answer": "Nu este obligatoriu, majoritatea rezultatelor vin din antrenament consistent și nutriție adecvată. Totuși, anumite suplimente pot ajuta în funcție de obiective. Vom discuta despre opțiuni dacă ești interesat/ă, dar nu sunt esențiale."
+      },
+      {
+        "question": "Cât timp durează până voi vedea rezultate?",
+        "answer": "Majoritatea clienților observă schimbări în primele 2-4 săptămâni, mai ales în nivelul de energie și forță. Transformările vizibile ale corpului apar de obicei după 6-8 săptămâni de consistență în antrenament și nutriție."
+      },
+      {
+        "question": "Planul de nutriție include și rețete?",
+        "answer": "Da, planul de nutriție include exemple de mese, rețete simple și liste de alternative pentru ingrediente, astfel încât să poți adapta planul la preferințele culinare și la timpul disponibil pentru prepararea meselor."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pregătit să-ți transformi corpul?",
+    "subtitle": "Programează acum o consultație gratuită și începe călătoria către cea mai bună versiune a ta!",
+    "primaryButton": "Rezervă-ți prima sesiune gratuită",
+    "secondaryButton": "Explorează serviciile"
+  },
+  "footer": {
+    "description": "Transformă-ți corpul și obiceiurile cu ajutorul antrenamentelor personalizate și planurilor nutriționale adaptate nevoilor tale specifice.",
+    "quickLinks": "Link-uri rapide",
+    "contact": "Contact",
+    "copyright": "© 2025 SMfit. Toate drepturile rezervate."
+  }
+}

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { NAV_LINKS, SOCIAL_LINKS, CONTACT_INFO } from '@/lib/constants';
@@ -5,8 +7,11 @@ import { Instagram, Facebook, Send, Mail, Phone, MapPin } from 'lucide-react';
 import TikTokIcon from '@/components/ui/TikTokIcon';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 
 const Footer = () => {
+  const t = useTranslations();
+  
   return (
     <footer className="bg-accent-100 dark:bg-accent-900 pt-12 pb-6">
       <div className="container mx-auto px-4 md:px-6">
@@ -26,8 +31,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              Transformă-ți corpul și obiceiurile cu ajutorul antrenamentelor personalizate și 
-              planurilor nutriționale adaptate nevoilor tale specifice.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4 mt-4">
               <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground hover:text-primary-600 transition">
@@ -44,12 +48,12 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-medium mb-4">Link-uri rapide</h3>
+            <h3 className="text-lg font-medium mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-3">
               {NAV_LINKS.map((link) => (
                 <li key={link.path}>
                   <Link href={link.path} className="text-sm text-muted-foreground hover:text-primary-600 transition">
-                    {link.title}
+                    {t(`navigation.${link.translationKey}`)}
                   </Link>
                 </li>
               ))}
@@ -58,7 +62,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-medium mb-4">Contact</h3>
+            <h3 className="text-lg font-medium mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary-600 shrink-0" />
@@ -91,7 +95,7 @@ const Footer = () => {
 
         <div className="flex justify-center">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} SMfit. Toate drepturile rezervate.
+            {t('footer.copyright')}
           </p>
         </div>
       </div>

@@ -7,13 +7,15 @@ import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { X } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 interface MobileNavProps {
-  links: { path: string; title: string }[];
+  links: { path: string; translationKey: string }[];
 }
 
 const MobileNav = ({ links }: MobileNavProps) => {
   const pathname = usePathname();
+  const t = useTranslations();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -41,7 +43,7 @@ const MobileNav = ({ links }: MobileNavProps) => {
   // Check if the current path matches or starts with the nav link path
   const isActive = (path: string) => {
     if (path === '/') {
-      return pathname === '/';
+      return pathname === '/' || pathname === '/en' || pathname === '/ro';
     }
     return pathname === path || pathname.startsWith(`${path}/`);
   };
@@ -84,14 +86,14 @@ const MobileNav = ({ links }: MobileNavProps) => {
               )}
               onClick={() => document.dispatchEvent(new CustomEvent('close-mobile-menu'))}
             >
-              {link.title}
+              {t(`navigation.${link.translationKey}`)}
             </Link>
           </motion.li>
         ))}
         <motion.li variants={itemVariants} className="w-full pt-4">
           <Button asChild className="bg-primary-500 hover:bg-primary-600 text-white w-full min-h-[48px] px-6">
             <Link href="/contact" onClick={() => document.dispatchEvent(new CustomEvent('close-mobile-menu'))}>
-              Contactează-mă
+              {t('navigation.contactButton')}
             </Link>
           </Button>
         </motion.li>

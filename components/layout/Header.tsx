@@ -5,16 +5,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { NAV_LINKS } from '@/lib/constants';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import MobileNav from './MobileNav';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { useRouter, useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import LocaleSwitcher from './LocaleSwitcher';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const t = useTranslations();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,7 +54,7 @@ const Header = () => {
   // Check if the current path matches or starts with the nav link path
   const isActive = (path: string) => {
     if (path === '/') {
-      return pathname === '/';
+      return pathname === '/' || pathname === '/en' || pathname === '/ro';
     }
     return pathname === path || pathname.startsWith(`${path}/`);
   };
@@ -94,20 +98,24 @@ const Header = () => {
                       : 'text-foreground/80 hover:text-primary-300'
                   )}
                 >
-                  {link.title}
+                  {t(`navigation.${link.translationKey}`)}
                 </Link>
               </li>
             ))}
           </ul>
-          <Button asChild size="sm" className="bg-primary-500 hover:bg-primary-600 text-white min-w-[140px]">
-            <Link href="/contact">
-              Contactează-mă
-            </Link>
-          </Button>
+          <div className="flex items-center space-x-4">
+            <LocaleSwitcher />
+            <Button asChild size="sm" className="bg-primary-500 hover:bg-primary-600 text-white min-w-[140px]">
+              <Link href="/contact">
+                {t('navigation.contactButton')}
+              </Link>
+            </Button>
+          </div>
         </nav>
 
         {/* Mobile Navigation Toggle */}
         <div className="flex items-center space-x-4 md:hidden">
+          <LocaleSwitcher />
           <button 
             onClick={() => setIsOpen(!isOpen)}
             className="z-50 focus:outline-none p-2"
