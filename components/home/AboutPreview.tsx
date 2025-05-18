@@ -17,7 +17,7 @@ const AboutPreview = () => {
             </h2>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Salut! Sunt Sabina Meruță, antrenor personal certificat internațional (Level 4 și Level 2) cu peste 3 ani de experiență în transformarea corpurilor și vieților clienților mei.
+              Salut! Sunt Sabina Meruță, antrenor personal certificat internațional (Level 4 și Level 2) cu peste 2 ani de experiență în transformarea corpurilor și vieților clienților mei.
             </p>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
