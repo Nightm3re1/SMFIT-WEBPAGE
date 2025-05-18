@@ -2,24 +2,26 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/toaster';
-import { ThemeProvider } from '@/components/providers/ThemeProvider';
-import VortexEffect from '@/components/shared/VortexEffect';
-import FitnessIconSystem from '@/components/shared/FitnessIconSystem';
-import InstagramIcon from '@/components/ui/InstagramIcon';
+import { NextIntlClientProvider } from 'next-intl';
+import { getTranslations } from '@/lib/utils';
 
-const inter = Inter({ 
+// Load Inter with fallback and retry mechanism
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  // Add fallback to ensure fonts fail gracefully
+  fallback: ['system-ui', 'Arial', 'sans-serif'],
+  // Adjust display behavior to reduce flickers
+  display: 'swap',
+  // Enable preloading of font files during build
+  preload: true,
+  // Adjust loading strategy
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: 'SMfit - Antrenamente Personalizate & Nutriție',
-    template: '%s | SMfit',
-  },
+  title: 'SMfit - Antrenamente Personalizate & Nutriție',
   description: 'Transformă-ți corpul cu SMfit: antrenamente personalizate online sau live și planuri nutriționale adaptate nevoilor tale.',
   metadataBase: new URL('https://smfit.ro'),
   alternates: {
@@ -39,26 +41,33 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  // Get default locale translations for the root layout
+  const messages = await getTranslations('ro');
+
   return (
     <html lang="ro" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Fallback stylesheet link in case dynamic loading fails */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          media="print"
+          onLoad="this.media='all'"
+        />
+      </head>
       <body className={`${inter.variable} font-sans min-h-screen flex flex-col`}>
-        <ThemeProvider attribute="class" defaultTheme="light">
-          <Header />
-          <main className="flex-grow relative">
-            {children}
-          </main>
-          <Footer />
+        <NextIntlClientProvider locale="ro" messages={messages}>
+          {children}
           <Toaster />
           <Analytics />
-          <VortexEffect excludeHomepageHero={true} />
-          <FitnessIconSystem />
-          <InstagramIcon />
-        </ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
