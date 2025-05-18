@@ -130,7 +130,7 @@ export default function DespreMine() {
                   rel="noopener noreferrer"
                   className="block h-full"
                 >
-                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-md">
                     <h4 className="text-lg font-semibold mb-2 text-center">18GYM</h4>
                     <p className="text-sm text-muted-foreground mb-4 text-center">
                       18GYM este lanțul premium de săli de fitness unde Sabina oferă sesiuni personalizate, asigurând rezultate rapide și o experiență de antrenament de top.
@@ -150,7 +150,7 @@ export default function DespreMine() {
                   rel="noopener noreferrer"
                   className="block h-full"
                 >
-                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-md">
                     <h4 className="text-lg font-semibold mb-2 text-center">Scitec Nutrition</h4>
                     <p className="text-sm text-muted-foreground mb-4 text-center">
                       Scitec Nutrition furnizează suplimente și echipament sportiv de calitate superioară, optimizate pentru performanță și recuperare eficientă.
@@ -170,7 +170,7 @@ export default function DespreMine() {
                   rel="noopener noreferrer"
                   className="block h-full"
                 >
-                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-colors duration-200">
+                  <div className="bg-gradient-to-br from-[#f7cfd8]/50 to-[#ffe3e8]/50 hover:from-[#f7cfd8]/60 hover:to-[#ffe3e8]/60 border border-primary-200 rounded-lg shadow-sm p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-md">
                     <h4 className="text-lg font-semibold mb-2 text-center">GymHyper</h4>
                     <p className="text-sm text-muted-foreground mb-4 text-center">
                       GymHyper propune îmbrăcăminte și accesorii tehnice inovatoare, concepute pentru confort și susținerea oricărui tip de antrenament.
